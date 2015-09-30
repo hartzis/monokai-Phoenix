@@ -2,7 +2,7 @@
 
 Modified from [kevinsawicki/monokai](https://github.com/kevinsawicki/monokai) to match sublime monokai-phoenix.
 
-Only works with [language-javascript-jsx](https://github.com/subtleGradient/language-javascript-jsx)
+Only works with [language-babel](https://github.com/gandm/language-babel)
 
 A monokai-Phoenix syntax theme for Atom.
 

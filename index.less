@@ -148,7 +148,7 @@ atom-text-editor, :host {
   color: @pink;
 
   // const, let, var javascript
-  &.type, &.modifier.js {
+  &.type:not(.doc), &.modifier.js {
     font-style: italic;
     color: @blue;
   }
@@ -179,8 +179,8 @@ atom-text-editor, :host {
 
   // 'self' Python
   &.language.python,
-  // this
-  &.language.this.es {
+  // this in javascript
+  &.language.this.js {
     color: @blue;
   }
 }
