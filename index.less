@@ -148,7 +148,7 @@ atom-text-editor, :host {
   color: @pink;
 
   // const, let, var javascript
-  &.type, &.modifier.js:not(.jsdoc) {
+  &.type:not(.jsdoc), &.modifier.js {
     font-style: italic;
     color: @blue;
   }
