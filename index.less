@@ -93,7 +93,7 @@ atom-text-editor, :host {
   &.character,
   &.language,
   &.numeric,
-  &.other:not(.js) {
+  &.other {
     color: @purple;
   }
 }
@@ -144,7 +144,7 @@ atom-text-editor, :host {
   color: @syntax-text-color;
 }
 
-.storage:not(.jsdoc) {
+.storage {
   color: @pink;
 
   // const, let, var javascript
@@ -179,8 +179,8 @@ atom-text-editor, :host {
 
   // 'self' Python
   &.language.python,
-  // 'this' Javascript
-  &.language.js {
+  // this and let fix for javascript
+  &.language.this.es, &.other.readwrite.js:first-of-type {
     color: @blue;
   }
 }
