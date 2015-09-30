@@ -1,10 +1,10 @@
 {
-  "name": "monokai",
+  "name": "monokai-phoenix",
   "theme": "syntax",
-  "version": "0.18.0",
+  "version": "0.0.1",
   "private": true,
-  "description": "A monokai theme",
-  "repository": "https://github.com/kevinsawicki/monokai",
+  "description": "A monokai-phoenix theme",
+  "repository": "https://github.com/hartzis/monokai-Phoenix",
   "license": "MIT",
   "engines": {
     "atom": ">0.39.0"
