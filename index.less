@@ -196,6 +196,15 @@ atom-text-editor, :host {
     font-style: italic;
     color: @orange;
   }
+  // highlight destructured function params for now
+  .parameters ~ .curly {
+    font-style: italic;
+    color: #fd971f;
+  }
+  // re highlight the curly braces
+  .curly {
+    color: @ghost-white;
+  }
 }
 
 // Jade syntax
